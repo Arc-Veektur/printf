@@ -3,10 +3,10 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - printf function
+ * _printf - printf initial function
  * @format: format
  * Return: Printed chars
- */
+*/
 
 int _printf(const char *format, ...)
 {

@@ -5,13 +5,13 @@
  * handle_write_char - Prints a string
  * @c: char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
- * @width: get width.
- * @precision: precision specifier
+ * @flags: Calculates active flags.
+ * @width: Get width of an element
+ * @precision: Precision specifier
  * @size: Size specifier
  *
  * Return: Number of chars printed.
- */
+*/
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
 { /* char is stored at left and paddind at buffer's right */
